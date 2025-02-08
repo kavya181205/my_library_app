@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
-environment:
+environment:   
   sdk: '>=3.3.1 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
@@ -35,7 +35,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-
+  firebase_core: ^3.4.0
+  intl: ^0.19.0
+  flex_color_picker: ^3.4.1
+  image_picker: ^1.1.2
+  firebase_auth: ^5.2.0
+  google_sign_in: ^6.1.23
 dev_dependencies:
   flutter_test:
     sdk: flutter
