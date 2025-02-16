@@ -4,6 +4,7 @@ class Book {
     final String author;
     final String description;
     final String genre;
+    final String img;
 
     Book({
         required this.id,
@@ -11,6 +12,7 @@ class Book {
         required this.author,
         required this.description,
         required this.genre,
+        required this.img,
     });
 }
 List<Book> books = [
@@ -20,6 +22,7 @@ List<Book> books = [
         author: "Michael Sipser",
         description: "A comprehensive guide to computational theory, automata, and complexity.",
         genre: "Computer Science, Theory",
+        img:""
     ),
     Book(
         id: 202,
