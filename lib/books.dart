@@ -12,7 +12,7 @@ class Book {
         required this.author,
         required this.description,
         required this.genre,
-        required this.img,
+        required this.img
     });
 }
 List<Book> books = [
@@ -22,7 +22,7 @@ List<Book> books = [
         author: "Michael Sipser",
         description: "A comprehensive guide to computational theory, automata, and complexity.",
         genre: "Computer Science, Theory",
-        img:""
+        img: "img/img1.jpg"
     ),
     Book(
         id: 202,
@@ -30,6 +30,7 @@ List<Book> books = [
         author: "Stuart Russell, Peter Norvig",
         description: "The standard AI textbook covering search, learning, and deep AI concepts.",
         genre: "Artificial Intelligence, Machine Learning",
+        img: "img/img2.jpg"
     ),
     Book(
         id: 203,
@@ -37,6 +38,7 @@ List<Book> books = [
         author: "Robert C. Martin",
         description: "Guidelines for writing maintainable, high-quality, and clean software code.",
         genre: "Software Development, Best Practices",
+        img: "img/img3.jpg"
     ),
     Book(
         id: 204,
@@ -44,6 +46,7 @@ List<Book> books = [
         author: "James F. Kurose, Keith W. Ross",
         description: "Explains networking concepts starting from application layer to the physical layer.",
         genre: "Networking, Computer Science",
+        img: "img/img4.jpg"
     ),
     Book(
         id: 205,
@@ -51,6 +54,7 @@ List<Book> books = [
         author: "Brian W. Kernighan, Dennis M. Ritchie",
         description: "A foundational book for learning the C programming language from the creators.",
         genre: "Programming, Systems",
+        img: "img/img5.jpg"
     ),
     Book(
         id: 206,
@@ -58,6 +62,7 @@ List<Book> books = [
         author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
         description: "A detailed and theoretical guide on algorithms used in computing.",
         genre: "Algorithms, Computer Science",
+        img: "img/img6.jpg"
     ),
     Book(
         id: 207,
@@ -65,6 +70,7 @@ List<Book> books = [
         author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
         description: "A classic book explaining fundamental design patterns in software development.",
         genre: "Software Engineering, Programming",
+        img: "img/img7.jpg"
     ),
     Book(
         id: 208,
@@ -72,6 +78,7 @@ List<Book> books = [
         author: "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
         description: "Comprehensive knowledge of modern operating systems and their concepts.",
         genre: "Operating Systems, Computer Science",
+        img: "img/img8.jpg"
     ),
     Book(
         id: 209,
@@ -79,6 +86,7 @@ List<Book> books = [
         author: "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
         description: "A complete guide to database management systems and SQL.",
         genre: "Databases, Computer Science",
+        img: "img/img9.jpg"
     ),
     Book(
         id: 210,
@@ -86,6 +94,7 @@ List<Book> books = [
         author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
         description: "A fundamental book on deep learning concepts and neural networks.",
         genre: "Machine Learning, Artificial Intelligence",
+        img: "img/img10.jpg"
     ),
     Book(
         id: 211,
@@ -93,6 +102,7 @@ List<Book> books = [
         author: "Kyle Simpson",
         description: "A deep dive into JavaScript concepts, closures, scope, and asynchronous programming.",
         genre: "Web Development, JavaScript",
+        img: "img/img11.jpg"
     ),
     Book(
         id: 212,
@@ -100,6 +110,7 @@ List<Book> books = [
         author: "Andrew Hunt, David Thomas",
         description: "A must-read book on software craftsmanship and best coding practices.",
         genre: "Software Engineering, Development",
+        img: "img/img12.jpg"
     ),
     Book(
         id: 213,
@@ -107,6 +118,7 @@ List<Book> books = [
         author: "Frederick P. Brooks Jr.",
         description: "Insights into software project management and engineering principles.",
         genre: "Software Project Management",
+        img: "img/img13.jpg"
     ),
     Book(
         id: 214,
@@ -114,6 +126,7 @@ List<Book> books = [
         author: "Harold Abelson, Gerald Jay Sussman",
         description: "A classic programming book emphasizing recursion, abstraction, and interpretation.",
         genre: "Programming, Computer Science",
+        img: "img/img14.jpg"
     ),
     Book(
         id: 215,
@@ -121,6 +134,7 @@ List<Book> books = [
         author: "William Stallings",
         description: "A complete guide to cryptographic principles and secure communication.",
         genre: "Cybersecurity, Cryptography",
+        img: "img/img15.jpg"
     ),
     Book(
         id: 216,
@@ -128,5 +142,6 @@ List<Book> books = [
         author: "Don Norman",
         description: "A UX design book explaining how to create user-friendly technology.",
         genre: "User Experience, Design",
+        img: "img/img16.jpg"
     ),
 ];
